@@ -1,5 +1,5 @@
 import {
-  Box, Image, Flex, Text, Heading, Center, SimpleGrid, Divider,
+  Box, Img, Flex, Text, Heading, Center, SimpleGrid, Divider,
   Link as ChakraLink, Stack
 } from '@chakra-ui/react'
 import Head from 'next/head'
@@ -60,28 +60,28 @@ export default function Home({ continents }: IHomeProps) {
                   Chegou a hora de tirar do papel a viagem que você<br /> sempre sonhou.
                 </Text>
               </Stack>
-              <Image src="assets/airplane.png" alt="Airplane" mb="-32" w={417} h={270} />
+              <Img src="assets/airplane.png" alt="Airplane" mb="-32" w={417} h={270} />
             </Center>
           </Box>
           <SimpleGrid minChildWidth="80px" my="20">
             <Center flexDirection="column">
-              <Image src="assets/cocktail.png" alt="Vida" w="20" h="20" mb="4" />
+              <Img src="assets/cocktail.png" alt="Vida" w="20" h="20" mb="4" />
               <Text fontWeight="semibold" lineHeight="9" fontSize="2xl" >vida noturna</Text>
             </Center>
             <Center flexDirection="column">
-              <Image src="assets/surf.png" alt="Vida" w="20" h="20" mb="4" />
+              <Img src="assets/surf.png" alt="Vida" w="20" h="20" mb="4" />
               <Text fontWeight="semibold" lineHeight="9" fontSize="2xl" >praia</Text>
             </Center>
             <Center flexDirection="column">
-              <Image src="assets/building.png" alt="Vida" w="20" h="20" mb="4" />
+              <Img src="assets/building.png" alt="Vida" w="20" h="20" mb="4" />
               <Text fontWeight="semibold" lineHeight="9" fontSize="2xl" >moderno</Text>
             </Center>
             <Center flexDirection="column">
-              <Image src="assets/museum.png" alt="Vida" w="20" h="20" mb="4" />
+              <Img src="assets/museum.png" alt="Vida" w="20" h="20" mb="4" />
               <Text fontWeight="semibold" lineHeight="9" fontSize="2xl" >clássico</Text>
             </Center>
             <Center flexDirection="column">
-              <Image src="assets/earth.png" alt="Vida" w="20" h="20" mb="4" />
+              <Img src="assets/earth.png" alt="Vida" w="20" h="20" mb="4" />
               <Text fontWeight="semibold" lineHeight="9" fontSize="2xl" >e mais...</Text>
             </Center>
           </SimpleGrid>
