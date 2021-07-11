@@ -114,7 +114,7 @@ export default function Continent({ continent }: IContinentProps) {
             </Text>
             <SimpleGrid columns={4} minChildWidth="15.8rem" spacingX="3.12rem" spacingY="2.75rem">
               {continent.cities.map(city => (
-                <Box w="16rem" h="17.43rem">
+                <Box w="16rem" h="17.43rem" key={city.id}>
                   <Img src={city.image}
                   />
                   <Flex justify="space-between" mx="6">
