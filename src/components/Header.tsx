@@ -1,4 +1,4 @@
-import { Flex, Image, Center } from "@chakra-ui/react";
+import { Flex, Img } from "@chakra-ui/react";
 import Link from "next/link";
 
 export function Header() {
@@ -7,11 +7,15 @@ export function Header() {
       as="header"
       align="center"
       justify="center"
-      my="6"
+      my={["4","5","6"]}
     >
       <Link href="/">
         <a>
-          <Image src='assets/logo.png' alt='Logo' />
+          <Img
+            w={["5.06rem","8rem","11.56rem"]}
+            src='assets/logo.png'
+            alt='Logo'
+          />
         </a>
       </Link>
     </Flex>
