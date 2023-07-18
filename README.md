@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">World Trip</h1>
 
-## Getting Started
+## 🚀 Tecnologias utilizadas
 
-First, run the development server:
+- [React](https://pt-br.reactjs.org/)
+- [Next](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [GraphQL](https://graphql.org/)
+- [Swiper](https://swiperjs.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## ✨ Imagens
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://user-images.githubusercontent.com/59753526/177064165-0234d758-20a1-4f2b-bcb9-6a36d1eaa8b6.png)
+![image](https://user-images.githubusercontent.com/59753526/177064175-3e3640da-c6ef-4a83-a943-64f6fabc5a85.png)
+![image](https://user-images.githubusercontent.com/59753526/177064183-13d0b33e-562f-4fdf-a2e5-0a599efb82a1.png)
+![image](https://user-images.githubusercontent.com/59753526/177064191-277b331e-a671-4732-a2f9-f67b319bea99.png)
+![image](https://user-images.githubusercontent.com/59753526/177064197-f533036a-daba-4f1d-8ba8-aa23c2130b1f.png)
+![image](https://user-images.githubusercontent.com/59753526/177064204-7b7a7f34-08c7-47a6-be8f-28bd195332ba.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Layout](https://www.figma.com/file/Z5wZWRbfcHZmxHVqJ43tPH/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy))
